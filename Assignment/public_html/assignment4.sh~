@@ -1,0 +1,2 @@
+find ~/Documents/Assignment/ -type f -print0 head -4 | xargs -0 mv -t ~/Documents/Assignment/public_html
+date
